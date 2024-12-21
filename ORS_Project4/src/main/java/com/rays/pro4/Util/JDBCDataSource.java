@@ -40,17 +40,17 @@ public final class JDBCDataSource {
 			datasource.cpds = new ComboPooledDataSource();
 			try {
 				datasource.cpds.setDriverClass(rb.getString("driver"));
+				datasource.cpds.setJdbcUrl(rb.getString("url"));
+				datasource.cpds.setUser(rb.getString("username"));
+				datasource.cpds.setPassword(rb.getString("password"));
+				datasource.cpds.setInitialPoolSize(new Integer((String) rb.getString("initialPoolSize")));
+				datasource.cpds.setAcquireIncrement(new Integer((String) rb.getString("acquireIncrement")));
+				datasource.cpds.setMaxPoolSize(new Integer((String) rb.getString("maxPoolSize")));
+				datasource.cpds.setMaxIdleTime(DataUtility.getInt(rb.getString("timeout")));
+				datasource.cpds.setMinPoolSize(new Integer((String) rb.getString("minPoolSize")));
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
-			datasource.cpds.setJdbcUrl(rb.getString("url"));
-			datasource.cpds.setUser(rb.getString("username"));
-			datasource.cpds.setPassword(rb.getString("password"));
-			datasource.cpds.setInitialPoolSize(new Integer((String) rb.getString("initialPoolSize")));
-			datasource.cpds.setAcquireIncrement(new Integer((String) rb.getString("acquireIncrement")));
-			datasource.cpds.setMaxPoolSize(new Integer((String) rb.getString("maxPoolSize")));
-			datasource.cpds.setMaxIdleTime(DataUtility.getInt(rb.getString("timeout")));
-			datasource.cpds.setMinPoolSize(new Integer((String) rb.getString("minPoolSize")));
 
 		}
 		return datasource;

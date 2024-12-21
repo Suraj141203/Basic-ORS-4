@@ -84,7 +84,7 @@
                 <tr>
                     <th align="left">LoginId <span style="color: red">*</span> :</th>
                     <td><input type="text" name="login" placeholder="Enter EmailId" size="26" value="<%=DataUtility.getStringData(bean.getLogin())%>"
-                        <%=(bean.getId() > 0) ? "readonly" : ""%>> </td>
+                        <%=(bean.getId() > 0)/*  ? "readonly" : "" */%>> </td>
                        <td style="position: fixed"> <font  color="red"> <%=ServletUtility.getErrorMessage("login", request)%></font></td>
                 </tr>
 				

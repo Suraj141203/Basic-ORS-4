@@ -72,6 +72,19 @@ public class DataValidator {
 		}
 		return d != null;
 	}
+	
+	public static boolean isFloat(String val) {
+		if (isNotNull(val)) {
+			try {
+				float i = Float.parseFloat(val);
+				return true;
+			} catch (NumberFormatException e) {
+				return false;
+			}
+		} else {
+			return false;
+		}
+	}
 
 	public static boolean isName(String val) {
 

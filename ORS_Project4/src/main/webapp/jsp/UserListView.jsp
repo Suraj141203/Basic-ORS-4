@@ -82,11 +82,10 @@
 						value="<%=ServletUtility.getParameter("firstName", request)%>">
 
 						<label></font> </label> <%-- <%=HTMLUtility.getList("roleid", String.valueOf(bean.getRoleId()), rlist) %> --%>
-
-						<label>LoginId</font> :
+						&nbsp; <label>LoginId</font> :
 					</label> <input type="text" name="loginid" placeholder="Enter Login-Id"
 						value="<%=ServletUtility.getParameter("login", request)%>">
-						&emsp; <label>Role</font> :
+						&nbsp; <label>Role</font> :
 					</label> <%=HTMLUtility.getList("roleid", String.valueOf(bean.getRoleId()), rlist)%>
 						&nbsp; <%-- <%=HTMLUtility.getList("loginid", String.valueOf(bean.getRoleId()), ulist)%>
  --%> &nbsp; <%-- <label>MobileNo</font> :</label>
@@ -94,7 +93,7 @@
 						type="number" name="mobile" placeholder="Enter mobile no"
 						value="<%=ServletUtility.getParameter("mobile", request)%>"> --%>
 
-						<label>dob</font> :
+						<label>Dob</font> :
 					</label><input type="text" name="dob" id="udate" readonly="readonly"
 						size="25" placeholder="Enter Dob "
 						value="<%=ServletUtility.getParameter("dob", request)%>">
@@ -194,8 +193,8 @@
 				}
 			%>
 
-			<input type="hidden" name="pageNo" value="<%=pageNo%>"> <input
-				type="hidden" name="pageSize" value="<%=pageSize%>">
+			<input type="hidden" name="pageNo" value="<%=pageNo%>"> 
+			<input type="hidden" name="pageSize" value="<%=pageSize%>">
 	</form>
 	</br>
 	</br>

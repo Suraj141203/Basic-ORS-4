@@ -170,6 +170,24 @@ public class DataUtility {
 		}
 	}
 
+	public static float getFloat(String val) {
+		if (DataValidator.isFloat(val)) {
+			return Float.parseFloat(val);
+		} else {
+			return 0;
+		}
+	}
+	
+	
+	public static double getDouble(String val) {
+		if (DataValidator.isFloat(val)) {
+			return Double.parseDouble(val);
+		} else {
+			return 0;
+		}
+	}
+
+
 	public static void main(String[] args) {
 		System.out.println(getInt("124"));
 	}
