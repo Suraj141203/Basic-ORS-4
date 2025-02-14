@@ -52,6 +52,12 @@ public class FollowUpListCtl extends BaseCtl {
 		map.put(2, "Vinjal");
 		map.put(3, "Aniket");
 		map.put(4, "Riya");
+		map.put(5, "Prakhar");
+		map.put(6, "Ritik");
+		map.put(7, "Rohit");
+		map.put(8, "Nayan");
+		map.put(9, "Rohit");
+		map.put(10, "Megha");
 
 		request.setAttribute("followup", map);
 		
