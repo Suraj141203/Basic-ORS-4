@@ -80,7 +80,9 @@
 					href="<%=ORSView.FACULTY_CTL%>">Add Faculty</a> | <a
 					href="<%=ORSView.FACULTY_LIST_CTL%>">Faculty List</a> | <a
 					href="<%=ORSView.TIMETABLE_CTL%>">Add TimeTable</a> | <a
-					href="<%=ORSView.TIMETABLE_LIST_CTL%>">TimeTable List</a> |<a
+					href="<%=ORSView.TIMETABLE_LIST_CTL%>">TimeTable List</a> | <a
+					href="<%=ORSView.FOLLOWUP_CTL%>">Add FollowUp</b></a> | <a
+					href="<%=ORSView.FOLLOWUP_LIST_CTL%>">FollowUp List</b></a> |<a
 					
 					target="blank" href="<%=ORSView.JAVA_DOC_VIEW%>">Java Doc</a> <%
  	}

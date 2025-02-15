@@ -1,5 +1,6 @@
 com\rays\pro4\controller\MarksheetListCtl.class
 com\rays\pro4\Bean\UserBean.class
+com\rays\pro4\controller\FollowUpListCtl.class
 com\rays\pro4\Util\EmailUtility.class
 com\rays\pro4\Util\EmailMessage.class
 com\rays\pro4\Bean\MarksheetBean.class
@@ -21,6 +22,7 @@ com\rays\pro4\Model\MarksheetModel.class
 com\rays\pro4\Bean\BaseBean.class
 com\rays\proj4\Test\FacultyTest.class
 com\rays\proj4\Test\RoleTest.class
+com\rays\pro4\Model\FollowUpModel.class
 com\rays\pro4\controller\CollegeCtl.class
 com\rays\pro4\controller\UserRegistrationCtl.class
 com\rays\pro4\controller\ORSView.class
@@ -32,6 +34,7 @@ com\rays\pro4\Model\BaseModel.class
 com\rays\pro4\Util\JDBCDataSource.class
 com\rays\pro4\controller\WelcomeCtl.class
 com\rays\pro4\controller\ErrorCtl.class
+com\rays\pro4\controller\FollowUpCtl.class
 com\rays\pro4\controller\CollegeListCtl.class
 com\rays\pro4\Model\UserModel.class
 com\rays\pro4\controller\FrontControler.class
@@ -70,6 +73,7 @@ com\rays\pro4\Bean\CollegeBean.class
 com\rays\proj4\Test\Coursetest.class
 com\rays\pro4\Model\TimeTableModel.class
 com\rays\pro4\controller\BaseCtl.class
+com\rays\pro4\Bean\FollowUpBean.class
 com\rays\pro4\Util\EmailBuilder.class
 com\rays\pro4\controller\RoleListCtl.class
 com\rays\pro4\controller\FacultyListCtl.class
