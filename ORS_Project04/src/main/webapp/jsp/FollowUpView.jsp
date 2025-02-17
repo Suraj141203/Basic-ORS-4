@@ -56,7 +56,7 @@
 						} else {
 					%>
 					<tr>
-						<th><font size="5px"> Add FollowUp 2 </font></th>
+						<th><font size="5px"> Add FollowUp </font></th>
 					</tr>
 					<%
 						}
